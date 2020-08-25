@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 睿哥日常
+subtitle: 这是主题
+description: 这是描述 
 keywords:
-author: John Doe
-language: en
+author: Ray Gao
+language: cn
 timezone: ''
 
 # URL
@@ -106,3 +106,22 @@ deploy:
   type: git
   repo: https://github.com/GaoRay666/GaoRay666.github.io.git
   branch: master
+
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
